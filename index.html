@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulários em
+            HTML</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+         <header>
+          <h1>Estudando formulários em HTML</h1>
+            <nav>
+                <a href="#sobre">Sobre</a> <br>
+                <a href="#servicos">Serviços</a> <br>
+                <a href="#contato">Contato</a>
+            </nav>
+         </header>
+         <main>
+            <div id="conteudo">
+                <article>
+                    <h2>Sobre</h2>
+                    <p>Esta é uma página de exemplo, criada para demonstrar o uso da tag form do HTML</p>
+                    <img src="imagem" alt="imagem n encontrada">
+                </article>
+                <section>
+                    <h2 id="Serviços">Serviços</h2>
+                    <ul>
+                        <li>web desing</li>
+                        <li>desenvolvimento</li>
+                        <li>hospedagem de sites</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 id="contato">Contato</h2>
+                    <p>Fale conosco</p>
+                </section>
+                <form action="/contato" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>  <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>  <br><br>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea>  <br><br>
+                    <input type="submit" value="Enviar">
+                </form>          
+            </div>
+         </main>
+         <aside>
+            <h2>Barra Lateral</h2>
+            <p>Algumas informações adicionais podem ser exibidas aqui.</p>
+        </aside>
+        <footer>
+            <p>&copy; Minha Empresa. Todos os direitos reservados</p> 
+            <p>Endereço: 1e 44 lote 77 casa 8-  guara 2</p>
+            <p>Telefone:12 4002-8922</p>
+            <p>Email: minhaempresa@gmail.com</p>
+        </footer>
+        <script src="" async defer></script>    
+    </body>
+</html>
